@@ -1,4 +1,4 @@
-PHP Lexer
+PHP Interpreter
 =
 
 A simple interpreter made in PHP. It allows to parse an abstract language tokens and do whatever you whant
