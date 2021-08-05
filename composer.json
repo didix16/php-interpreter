@@ -1,0 +1,26 @@
+{
+    "name": "didix16/php-interpreter",
+    "description": "A simple interpreter made in PHP. It allows to parse an abstract language tokens and do whatever you whant",
+    "version": "1.0.0",
+    "keywords": ["interpreter", "simple", "build", "abstract", "language"],
+    "type": "library",
+    "require": {
+        "didix16/php-grammar": "^1.0",
+        "didix16/php-datatransformer": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dídac Rodríguez",
+            "email": "drodriguez816@gmail.com",
+            "homepage": "https://github.com/didix16",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "didix16\\Interpreter\\": "src/"
+        }
+    }
+}
