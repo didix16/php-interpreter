@@ -1,5 +1,7 @@
 <?php
 
+namespace didix16\Interpreter;
+
 use didix16\DataTransformer\DataTransformer;
 use didix16\Interpreter\InterpreterFilterInterface;
 
