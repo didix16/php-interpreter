@@ -17,7 +17,7 @@ trait HasFilter {
      * @param InterpreterFilterInterface $filter
      * @return Interpreter
      */
-    final protected function loadFilter(InterpreterFilterInterface $filter){
+    final public function loadFilter(InterpreterFilterInterface $filter){
 
         $this->filters[strtolower($filter->getName())] = $filter;
         return $this;
@@ -29,7 +29,7 @@ trait HasFilter {
      * @return $this
      * @throws Exception
      */
-    final protected function unloadFilter($filterName){
+    final public function unloadFilter($filterName){
 
         $filterName = strtolower($filterName);
 
