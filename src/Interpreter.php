@@ -89,7 +89,7 @@ abstract class Interpreter
      * @param InterpreterFunction $fn
      * @return $this
      */
-    protected function loadFunction(InterpreterFunction $fn){
+    public function loadFunction(InterpreterFunction $fn){
 
         $this->functions[strtolower($fn->getName())] = $fn;
         return $this;
@@ -101,7 +101,7 @@ abstract class Interpreter
      * @return Interpreter
      * @throws Exception
      */
-    final protected function unloadFunction($fnName){
+    final public function unloadFunction($fnName){
 
         $fnName = strtolower($fnName);
 
