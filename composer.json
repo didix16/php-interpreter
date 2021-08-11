@@ -1,7 +1,7 @@
 {
     "name": "didix16/php-interpreter",
     "description": "A simple interpreter made in PHP. It allows to parse an abstract language tokens and do whatever you whant",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": ["interpreter", "simple", "build", "abstract", "language"],
     "type": "library",
     "require": {
