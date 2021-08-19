@@ -5,12 +5,6 @@ namespace didix16\Interpreter;
 
 interface InterpreterFilterInterface
 {
-    /**
-     * The constructor of an interpreter filter
-     * It should be passed a name as a parameter.
-     * The name should be stored using strtolower
-     */
-    public function __construct(string $name);
 
     /**
      * Returns the name of the filter
